@@ -21,7 +21,8 @@ public class Hailstone {
         
     }
     
-    //Returns the hailstone 
+    //Returns the hailstone sequence using the num parameter as a starting point
+    //will go forwards if second parameter is true, or backwards if false
     public static String hailstone(int num, boolean forward) {
         
         String hailstone = "" + num;
